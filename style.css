@@ -6,11 +6,46 @@ body {
 
 img {
     border: 5px solid black;
+    border-radius: 100%;
     height: 300px;
     width: 300px;
     object-fit: cover;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
 table {
+    height: 20%;
+    width: 30%;
+}
+
+tr {
     color: brown;
+    font-size: x-large;
+}
+
+.links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: brown;
+}
+
+#one {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 25%;
+
+}
+
+.top {
+    text-align: center;
 }
